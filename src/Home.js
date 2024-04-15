@@ -2,7 +2,6 @@ import { Box, Tab, Tabs, Typography, makeStyles } from '@material-ui/core'
 import Item from './Item'
 import React, { useState, useEffect, useMemo } from 'react'
 import datas from "./table.json"
-import { Height } from '@material-ui/icons'
 
 const useStyle = makeStyles(theme =>({
     root: {
@@ -135,7 +134,18 @@ function Home(){
         }
     }, [tabRefs, scrollFromClick])
 
-    return(<Box className={classes.head}>
+    const completeArrayTriple = (datas) => datas.map(entry => ({
+        ...entry,
+        arr: [
+          ...entry.arr,
+          ...Array((3 - (entry.arr.length % 3)) % 3).fill({})
+        ],
+    }));
+
+    const trippedData = completeArrayTriple(datas);
+
+    return(
+    <Box className={classes.head}>
         <Typography variant="h3" style={{ fontFamily: 'QuincyCF-Light' }}>
             Tables
         </Typography>
@@ -152,7 +162,7 @@ function Home(){
         <Box className={classes.root}>
             <Box style={{ display: 'flex', justifyContent: 'center' }}>
                 <Box>
-                    {datas.map((item, index) => (
+                    {trippedData.map((item, index) => (
                         <Box ref={tabRefs[index]}>
                             <Typography className={classes.subTitle} style={{fontSize:"3em"}}>{item.title}</Typography>
                             <Box className={classes.grid}>

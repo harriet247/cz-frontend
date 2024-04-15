@@ -7,17 +7,21 @@ const useStyle = makeStyles(theme => ({
         flexDirection: 'column',
         borderRadius: '50%',
         marginBottom: 10,
-        '& img': {
-            width: 400,
-            [theme.breakpoints.down('sm')]: {
-                width: 'calc(100% - 30px)',
-            },
-            minHeight: 300,
-            borderRadius: 30,
-            marginBottom: 10,
-            border: '2px solid #ECEBE7 !important',
-            objectFit: 'cover',
+        width: 400,
+        [theme.breakpoints.down("sm")]: {
+          width: "unset",
         },
+        "& img": {
+          width: 400,
+          [theme.breakpoints.down("sm")]: {
+            width: "calc(100% - 30px)",
+          },
+          minHeight: 300,
+          borderRadius: 30,
+          marginBottom: 10,
+          border: "2px solid #ECEBE7 !important",
+          objectFit: "cover",
+        }
     },
     text: {
         width: 400,
@@ -66,6 +70,9 @@ const useStyle = makeStyles(theme => ({
 function Item({ img, tag, tagColor, name, price, discount }) {
     const classes = useStyle()
     return (
+        <>
+        {img? 
+        (
         <Box className={classes.root}>
             <Box
                 style={{
@@ -104,7 +111,10 @@ function Item({ img, tag, tagColor, name, price, discount }) {
                     </Box>
                 </Box>
             </Box>
-        </Box>
+        </Box>) : (
+            <Box className={classes.root} />
+        )}
+        </>
     )
 }
 
