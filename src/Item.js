@@ -1,5 +1,5 @@
 import { Box, makeStyles } from '@material-ui/core'
-import { ArrowRight } from '@material-ui/icons'
+import { ArrowForward } from '@material-ui/icons';
 
 const useStyle = makeStyles(theme => ({
     root: {
@@ -24,19 +24,26 @@ const useStyle = makeStyles(theme => ({
         [theme.breakpoints.down('sm')]: {
             width: 'calc(100% - 30px)',
         },
+        
     },
     money: {
         color: '#53548A',
         ontSize: '14px',
         whiteSpace: 'nowrap',
         marginRight: 5,
+        fontFamily: "Campton-Book",
+        fontSize: 14,
+        marginTop: 1,
     },
     customize: {
         display: 'flex',
         cursor: 'pointer',
         color: '#69A2FF',
-        fontWeight: 700,
-        marginLeft: 5,
+        fontFamily: "Campton-SemiBold",
+        fontSize: 14,
+        marginLeft: 1,
+        marginTop: 1,
+        alignItems: "center"
     },
     tag: {
         position: 'absolute',
@@ -49,7 +56,7 @@ const useStyle = makeStyles(theme => ({
         display: 'flex',
         alignItems: 'center',
         padding: '6px 6px 6px 10px',
-        gap: '8px',
+        gap: '6px',
         backgroundColor: '#fff',
         border: '0.5px solid #D0CEC4',
         borderRadius: '100px',
@@ -69,8 +76,8 @@ function Item({ img, tag, tagColor, name, price, discount }) {
                     alignItems: 'center',
                 }}>
                 <img src={img} alt="" />
-                <Box className={classes.tag}>
-                    <span style={{ fontFamily: 'Larsseit-Thin' }}>{tag}</span>
+                <Box className={classes.tag} style={{alignItems:"center"}}>
+                    <span style={{ fontFamily: 'Campton-Medium', fontSize:12, color: "#4F6076"}}>{tag}</span>
                     <Box
                         style={{
                             backgroundColor: tagColor,
@@ -85,13 +92,13 @@ function Item({ img, tag, tagColor, name, price, discount }) {
                         <strong style={{ fontFamily: 'Campton-SemiBold' }}>
                            {name}
                         </strong>
-                        <Box style={{ display: 'flex' }}>
-                            {discount === null? 
+                        <Box style={{ display: 'flex',alignItems: "center"}}>
+                            {discount === undefined? 
                             <span className={classes.money}>{price} or financing |</span> : 
                             <span className={classes.money}>{price} | Save {discount}</span>}
                             <span className={classes.customize}>
                                 Customize
-                                <ArrowRight />
+                                <ArrowForward fontSize='small' style={{marginLeft:3}}/>
                             </span>
                         </Box>
                     </Box>
