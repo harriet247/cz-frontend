@@ -1,0 +1,326 @@
+[
+    {
+       "title":"Coffee Tables",
+       "arr":[
+          {
+             "img":"./assets/img/CoffeeTable1.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586",
+             "name":"Mensa Coffee Table",
+             "price": "$360"
+          },
+          {
+             "img":"./assets/img/CoffeeTable2.webp",
+             "tag":"Black Wood",
+             "tagColor":"#0A0401",
+             "name":"Mensa Coffee Table",
+             "price": "$360"
+          },
+          {
+             "img":"./assets/img/CoffeeTable3.webp",
+             "tag":"Walnut",
+             "tagColor":"#582F11",
+             "name":"Mensa Coffee Table",
+             "price": "$360"
+          },
+          {
+             "img":"./assets/img/CoffeeTable4.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586",
+             "name":"Stella Coffee Table - 1 Unit",
+             "price": "$210"
+          },
+          {
+             "img":"./assets/img/CoffeeTable5.webp",
+             "tag":"Walnut",
+             "tagColor":"#582F11",
+             "name": "Stella Coffee Table - Set of 2",
+             "price":"$420"
+          },
+          {
+             "img":"./assets/img/CoffeeTable6.webp",
+             "tag":"Black Wood",
+             "tagColor":"#0A0401",
+             "name": "Pluto Coffee Table",
+             "price":  "$135"
+          },
+          {
+            "img":"./assets/img/CoffeeTable7.webp",
+            "tag":"Oak",
+            "tagColor":"#DDB586",
+            "name":"Stella Coffee Table  - 3 Units",
+            "price":"$630"
+         },
+         {
+            "img":"./assets/img/CoffeeTable8.webp",
+            "tag":"Espresso",
+            "tagColor":"#442109",
+            "name": "Pluto Coffee Table",
+            "price": "$135"
+         },
+         {
+            "img":"./assets/img/CoffeeTable9.webp",
+            "tag":"Walnut",
+            "tagColor":"#582F11",
+            "name":"Stella Coffee Table - 1 Unit",
+            "price":"$210"
+         },
+         {
+            "img":"./assets/img/CoffeeTable10.webp",
+            "tag":"Oak",
+            "tagColor":"#DDB586",
+            "name":"Stella Coffee Table  - 2 Units",
+            "price": "$420"
+         },
+         {
+            "img":"./assets/img/CoffeeTable11.webp",
+            "tag":"Walnut",
+            "tagColor":"#582F11",
+            "name":"Stella Coffee Table  - 3 Units",
+            "price":"$630"
+         },
+         {
+            "img":"./assets/img/CoffeeTable12.webp",
+            "tag":"Sandstone",
+            "tagColor":"#ECEBE7",
+            "name":"Mistral Rectangle Coffee Table",
+            "price":"$380"
+         },
+         {
+            "img":"./assets/img/CoffeeTable13.webp",
+            "tag":"Pebble",
+            "tagColor":"#5A5A5A",
+            "name":"Mistral Square Coffee Table",
+            "price":"$340"
+         }
+       ]
+    },
+    {
+       "title":"Side Tables",
+       "arr":[
+          {
+             "img":"./assets/img/SideTables1.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586",
+             "name":"Mensa Side Table",
+             "price":"$250"
+          },
+          {
+             "img":"./assets/img/SideTables2.webp",
+             "tag":"Black Wood",
+             "tagColor":"#0A0401",
+             "name":"Mensa Side Table",
+             "price":"$250"
+          },
+          {
+             "img":"./assets/img/SideTables3.webp",
+             "tag":"Walnut",
+             "tagColor":"#582F11",
+             "name":"Mensa Side Table",
+             "price":"$250"
+          },
+          {
+             "img":"./assets/img/SideTables4.webp",
+             "tag":"Eclipse",
+             "tagColor":"#0A0401",
+             "name":"Solis Adjustable Table",
+             "price": "$180"
+          },
+          {
+             "img":"./assets/img/SideTables5.webp",
+             "tag":"Twilight",
+             "tagColor":"#999",
+             "name":"Solis Adjustable Table",
+             "price": "$180"
+          },
+          {
+             "img":"./assets/img/SideTables6.webp",
+             "tag":"Black Wood",
+             "tagColor":"#0A0401",
+             "name":"Solis Adjustable Table",
+             "price": "$180"
+          },
+          {
+             "img":"./assets/img/CoffeeTable9.webp",
+             "tag":"Walnut",
+             "tagColor":"#582F11",
+             "name":"Stella Coffee Table - 1 Unit",
+             "price":"$210"
+          },
+          {
+             "img":"./assets/img/SideTables8.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586",
+             "name":"Stella Coffee Table - 1 Unit",
+             "price":"$210"
+          },
+          {
+             "img":"./assets/img/SideTables9.webp",
+             "tag":"Espresso",
+             "tagColor":"#442109",
+             "name":"Pluto Side Table",
+             "price":"$85"
+          },
+          {
+             "img":"./assets/img/SideTables10.webp",
+             "tag":"Black Wood",
+             "tagColor":"#0A0401",
+             "name":"Pluto Side Table",
+             "price":"$85"
+          },
+          {
+             "img":"./assets/img/SideTables11.webp",
+             "tag":"Walnut",
+             "tagColor":"#582F11",
+             "name":"Stella Media Unit - 1 Unit|No Door",
+             "price":"$145"
+          },
+          {
+             "img":"./assets/img/SideTables12.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586",
+             "name":"Stella Media Unit - 1 Unit|No Door",
+             "price":"$145"
+          },
+          {
+             "img":"./assets/img/SideTables13.webp",
+             "tag":"Walnut",
+             "tagColor":"#582F11",
+             "name":"Stella Media Unit - 1 Unit|With Door",
+             "price":"$165"
+          },
+          {
+             "img":"./assets/img/SideTables14.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586",
+             "name":"Stella Media Unit",
+             "price":"$165"
+          },
+          {
+             "img":"./assets/img/SideTables15.webp",
+             "tag":"Sandstone",
+             "tagColor":"#ECEBE7",
+             "name":"Mistral End Table",
+             "price":"$250"
+          },
+          {
+             "img":"./assets/img/SideTables16.webp",
+             "tag":"Pebble",
+             "tagColor":"#5A5A5A",
+             "name":"Mistral End Table",
+             "price":"$250"
+          }
+       ]
+    },
+    {
+       "title":"Media Units",
+       "arr":[
+          {
+             "img":"./assets/img/MediaUnit1.webp",
+             "tag":"Walnut",
+             "tagColor":"#582F11",
+             "name":"Stella Media Unit - Set of 3",
+             "price":"$475"
+          },
+          {
+             "img":"./assets/img/MediaUnit2.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586",
+             "name":"Stella Media Unit - Set of 2",
+             "price":"$330"
+          },
+          {
+             "img":"./assets/img/MediaUnit3.webp",
+             "tag":"Oat",
+             "tagColor":"#DDB586",
+             "name":"Stella Media Unit",
+             "price":"$165"
+          },
+          {
+             "img":"./assets/img/MediaUnit4.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586",
+             "name":"Stella Media Unit - 1 Unit|No Door",
+             "price":"$145"
+          },
+          {
+             "img":"./assets/img/MediaUnit5.webp",
+             "tag":"Walnut",
+             "tagColor":"#582F11",
+             "name":"Stella Media Unit - 2 Unit",
+             "price":"$310"
+          },
+          {
+             "img":"./assets/img/MediaUnit6.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586",
+             "name":"Stella Media Unit - 2 Unit|No Door",
+             "price":"$310"
+          },
+          {
+            "img":"./assets/img/SideTables14.webp",
+            "tag":"Oak",
+            "tagColor":"#DDB586",
+            "name":"Stella Media Unit",
+            "price":"$165"
+         },
+          {
+            "img":"./assets/img/SideTables14.webp",
+            "tag":"Oak",
+            "tagColor":"#DDB586",
+            "name":"Stella Media Unit",
+            "price":"$165"
+         }
+       ]
+    },
+    {
+       "title":"Table Sets",
+       "arr":[
+          {
+             "img":"./assets/img/TableSet1.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586"
+          },
+          {
+             "img":"./assets/img/TableSet2.webp",
+             "tag":"Black Wood",
+             "tagColor":"#0A0401"
+          },
+          {
+             "img":"./assets/img/TableSet3.webp",
+             "tag":"Walnut",
+             "tagColor":"#582F11"
+          },
+          {
+             "img":"./assets/img/TableSet4.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586"
+          },
+          {
+             "img":"./assets/img/TableSet5.webp",
+             "tag":"Black Wood",
+             "tagColor":"#0A0401"
+          },
+          {
+             "img":"./assets/img/TableSet6.webp",
+             "tag":"Black Wood",
+             "tagColor":"#0A0401"
+          },
+          {
+             "img":"CoffeeTable1",
+             "tag":"Oak",
+             "tagColor":"#DDB586"
+          },
+          {
+             "img":"CoffeeTable2",
+             "tag":"Black Wood",
+             "tagColor":"#0A0401"
+          },
+          {
+             "img":"CoffeeTable3",
+             "tag":"Walnut",
+             "tagColor":"#582F11"
+          }
+       ]
+    }
+ ]
