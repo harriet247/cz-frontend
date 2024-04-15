@@ -254,23 +254,66 @@
              "img":"./assets/img/MediaUnit6.webp",
              "tag":"Oak",
              "tagColor":"#DDB586",
-             "name":"Stella Media Unit - 2 Unit|No Door",
+             "name":"Stella Media Unit - 2 Unit|No Doors",
              "price":"$310"
           },
           {
-            "img":"./assets/img/SideTables14.webp",
+            "img":"./assets/img/MediaUnit7.webp",
             "tag":"Oak",
             "tagColor":"#DDB586",
-            "name":"Stella Media Unit",
+            "name":"Stella Media Unit - Set of 3",
             "price":"$165"
          },
           {
-            "img":"./assets/img/SideTables14.webp",
+            "img":"./assets/img/MediaUnit8.webp",
+            "tag":"Walnut",
+            "tagColor":"#582F11",
+            "name":"Stella Media Unit - 3 Units | No Doors",
+            "price":"$435"
+         },
+         {
+           "img":"./assets/img/MediaUnit9.webp",
+           "tag":"Walnut",
+           "tagColor":"#582F11",
+           "name":"Stella Media Unit - 4 Units",
+           "price":"$620"
+        },
+          {
+            "img":"./assets/img/MediaUnit10.webp",
             "tag":"Oak",
             "tagColor":"#DDB586",
-            "name":"Stella Media Unit",
-            "price":"$165"
+            "name":"Stella Media Unit - 4 Units | No Doors",
+            "price":"$580"
+         },
+         {
+           "img":"./assets/img/MediaUnit11.webp",
+           "tag":"Oak",
+           "tagColor":"#DDB586",
+           "name":"Stella Media Unit - 2 Units",
+           "price":"$310"
+        },
+        {
+          "img":"./assets/img/MediaUnit12.webp",
+          "tag":"Walnut",
+          "tagColor":"#582F11",
+          "name":"Stella Media Unit - Set of 4",
+          "price":"$620"
+       },
+       {
+         "img":"./assets/img/MediaUnit13.webp",
+         "tag":"Walnut",
+         "tagColor":"#582F11",
+         "name":"Stella Media Unit - 3 Units | No Doors",
+         "price":"$495"
+      },
+          {
+            "img":"./assets/img/MediaUnit14.webp",
+            "tag":"Oak",
+            "tagColor":"#DDB586",
+            "name":"Stella Media Unit - 4 Units | With Doors",
+            "price":"$660"
          }
+
        ]
     },
     {
@@ -278,48 +321,59 @@
        "arr":[
           {
              "img":"./assets/img/TableSet1.webp",
-             "tag":"Oak",
-             "tagColor":"#DDB586"
+             "tag":"Black Wood",
+             "tagColor":"#DDB586",
+             "name":"Pluto Table Set | 1 Coffee Table & 1 Side Table",
+             "price":"$195",
+             "discount":"10%"
           },
           {
              "img":"./assets/img/TableSet2.webp",
-             "tag":"Black Wood",
-             "tagColor":"#0A0401"
+             "tag":"Espresso",
+             "tagColor":"#0A0401",
+             "name":"Pluto Table Set | 1 Coffee Table & 2 Side Tables",
+             "price":"$255",
+             "discount":"15%"
           },
           {
              "img":"./assets/img/TableSet3.webp",
-             "tag":"Walnut",
-             "tagColor":"#582F11"
+             "tag":"Eclipse",
+             "tagColor":"#582F11",
+             "name":"Pair of Solis Adjustable Tables",
+             "price":"$320",
+             "discount":"10%"
           },
           {
              "img":"./assets/img/TableSet4.webp",
-             "tag":"Oak",
-             "tagColor":"#DDB586"
+             "tag":"Walnut",
+             "tagColor":"#DDB586",
+             "name":"Stella Table Set | 2-Unit Media & 2-Unit Coffee Table",
+             "price":"$620",
+             "discount":"15%"
           },
           {
              "img":"./assets/img/TableSet5.webp",
-             "tag":"Black Wood",
-             "tagColor":"#0A0401"
+             "tag":"Walnut",
+             "tagColor":"#0A0401",
+             "name":"Stella Table Set | 2-Unit Media & 1 Side Table",
+             "price":"465",
+             "discount":"10%"
           },
           {
              "img":"./assets/img/TableSet6.webp",
-             "tag":"Black Wood",
-             "tagColor":"#0A0401"
-          },
-          {
-             "img":"CoffeeTable1",
              "tag":"Oak",
-             "tagColor":"#DDB586"
+             "tagColor":"#0A0401",
+             "name":"Stella Table Set | 3-Unit Media & 2-Unit Coffee Table",
+             "price":"$715",
+             "discount":"20%"
           },
           {
-             "img":"CoffeeTable2",
-             "tag":"Black Wood",
-             "tagColor":"#0A0401"
-          },
-          {
-             "img":"CoffeeTable3",
-             "tag":"Walnut",
-             "tagColor":"#582F11"
+             "img":"./assets/img/TableSet6.webp",
+             "tag":"Oak",
+             "tagColor":"#DDB586",
+             "name":"Stella Table Set | 3-Unit Media & 1 Side Table",
+             "price":"$580",
+             "discount":"15%"
           }
        ]
     }

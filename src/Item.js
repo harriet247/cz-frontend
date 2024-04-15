@@ -56,7 +56,7 @@ const useStyle = makeStyles(theme => ({
         cursor: 'pointer',
     },
 }))
-function Item({ img, tag, tagColor, name, price }) {
+function Item({ img, tag, tagColor, name, price, discount }) {
     const classes = useStyle()
     return (
         <Box className={classes.root}>
@@ -86,7 +86,9 @@ function Item({ img, tag, tagColor, name, price }) {
                            {name}
                         </strong>
                         <Box style={{ display: 'flex' }}>
-                            <span className={classes.money}>{price} or financing</span>|
+                            {discount === null? 
+                            <span className={classes.money}>{price} or financing |</span> : 
+                            <span className={classes.money}>{price} | Save {discount}</span>}
                             <span className={classes.customize}>
                                 Customize
                                 <ArrowRight />
