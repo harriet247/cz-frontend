@@ -111,6 +111,7 @@ function Home() {
       top: offsetPosition,
       behavior: "smooth",
     });
+    setTimeout(() => setScrollFromClick(false), 5000);
   };
 
   useEffect(() => {
@@ -146,7 +147,7 @@ function Home() {
 
   return (
     <Box className={classes.head}>
-      <Typography variant="h3" style={{ fontFamily: "QuincyCF-Light" }}>
+      <Typography variant="h2" style={{ fontFamily: "QuincyCF-Light" }}>
         Tables
       </Typography>
       <div style={{ marginBottom: 20, fontFamily: "Campton-Book" }}>
