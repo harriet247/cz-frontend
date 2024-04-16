@@ -1,29 +1,29 @@
 @font-face {
-  font-family: 'Larsseit-Thin';
-  src: url('./fonts/Larsseit-Thin.otf') format('opentype');
+  font-family: "Larsseit-Thin";
+  src: url("./fonts/Larsseit-Thin.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'Campton-SemiBold';
-  src: url('./fonts/Campton-SemiBold.otf') format('opentype');
+  font-family: "Campton-SemiBold";
+  src: url("./fonts/Campton-SemiBold.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'QuincyCF-Light';
-  src: url('./fonts/QuincyCF-Light.otf') format('opentype');
+  font-family: "QuincyCF-Light";
+  src: url("./fonts/QuincyCF-Light.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'Campton-Medium';
-  src: url('./fonts/CamptonMedium.otf') format('opentype');
+  font-family: "Campton-Medium";
+  src: url("./fonts/CamptonMedium.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'Campton-Light';
-  src: url('./fonts/CamptonLight.otf') format('opentype');
+  font-family: "Campton-Light";
+  src: url("./fonts/CamptonLight.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'Campton-Book';
-  src: url('./fonts/Campton-Book.otf') format('opentype');
+  font-family: "Campton-Book";
+  src: url("./fonts/Campton-Book.otf") format("opentype");
 }
