@@ -129,7 +129,7 @@
           {
              "img":"./assets/img/SideTables5.webp",
              "tag":"Twilight",
-             "tagColor":"#999",
+             "tagColor":"#999999",
              "name":"Solis Adjustable Table",
              "price": "$180"
           },
@@ -322,7 +322,7 @@
           {
              "img":"./assets/img/TableSet1.webp",
              "tag":"Black Wood",
-             "tagColor":"#DDB586",
+             "tagColor":"#0A0401",
              "name":"Pluto Table Set | 1 Coffee Table & 1 Side Table",
              "price":"$195",
              "discount":"10%"
@@ -330,7 +330,7 @@
           {
              "img":"./assets/img/TableSet2.webp",
              "tag":"Espresso",
-             "tagColor":"#0A0401",
+             "tagColor":"#442109",
              "name":"Pluto Table Set | 1 Coffee Table & 2 Side Tables",
              "price":"$255",
              "discount":"15%"
@@ -338,7 +338,7 @@
           {
              "img":"./assets/img/TableSet3.webp",
              "tag":"Eclipse",
-             "tagColor":"#582F11",
+             "tagColor":"#0A0401",
              "name":"Pair of Solis Adjustable Tables",
              "price":"$320",
              "discount":"10%"
@@ -346,7 +346,7 @@
           {
              "img":"./assets/img/TableSet4.webp",
              "tag":"Walnut",
-             "tagColor":"#DDB586",
+             "tagColor":"#582F11",
              "name":"Stella Table Set | 2-Unit Media & 2-Unit Coffee Table",
              "price":"$620",
              "discount":"15%"
@@ -354,7 +354,7 @@
           {
              "img":"./assets/img/TableSet5.webp",
              "tag":"Walnut",
-             "tagColor":"#0A0401",
+             "tagColor":"#582F11",
              "name":"Stella Table Set | 2-Unit Media & 1 Side Table",
              "price":"$465",
              "discount":"10%"
@@ -362,7 +362,7 @@
           {
              "img":"./assets/img/TableSet6.webp",
              "tag":"Oak",
-             "tagColor":"#0A0401",
+             "tagColor":"#DDB586",
              "name":"Stella Table Set | 3-Unit Media & 2-Unit Coffee Table",
              "price":"$715",
              "discount":"20%"
